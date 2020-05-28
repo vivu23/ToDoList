@@ -1,0 +1,20 @@
+<%- include("header") -%>
+
+<div class="top-box">
+  <div class="box" id="heading">
+    <h1>Edit</h1>
+  </div>
+  <div class="editBox">
+    <form class="" action="/edit/<%= currentItem %>" method="post">
+      <input id="input" type="text" name="newTodo" autocomplete="off" value="<%= currentItem %>" onkeyup="showError()">
+      <button id="submitButton" type="submit">Done</button>
+      <button id="submitButton" type="reset" name="resetButton">Reset</button>
+    </form>
+  </div>
+
+</div>
+
+
+
+
+<%- include("footer") -%>
