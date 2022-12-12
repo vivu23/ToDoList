@@ -12,7 +12,7 @@
     "alert-node": "^3.0.10",
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-flash-messages": "^0.1.1",
     "mongoose": "^5.9.6",
     "popups": "^1.1.3"
